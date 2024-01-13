@@ -98,7 +98,7 @@ img {
   top: 100%;
   left: 50%;
   transform: translate(-50%);
-  padding: 30px 400px;
+  
     */
   max-width: 600px;
   max-height: 450px;
@@ -269,7 +269,7 @@ img {
   height: 140px;
 }
 
-/* Holidays section */
+/* Holidays Section */
 
 .holidays-container {
   background: #fff;
@@ -303,13 +303,13 @@ img {
   font-family: "Inter";
   font-size: 20px;
   font-weight: 500;
-  padding-bottom:50px;
+  padding-bottom: 50px;
 }
 
 .holiday-img1 {
   width: 429px;
   height: 433px;
-  transform: translate(167%); 
+  transform: translate(167%);
   padding-top: 50px;
 }
 
@@ -333,5 +333,42 @@ img {
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-100%, 0%)
+  transform: translate(-100%, 0%);
+}
+
+/* Portfolio Section */
+
+.portfolio-container {
+  margin: 100px;
+}
+
+.portfolio-text h3 {
+  color: #f00;
+  font-family: "Inter";
+  font-size: 24px;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+
+.portfolio-text h1 {
+  color: #070211;
+  font-family: "Merriweather";
+  font-size: 48px;
+  font-weight: 900;
+  margin-bottom: 15px;
+}
+
+.portfolio-text p {
+  color: rgba(7, 2, 17, 0.6);
+  font-family: "Inter";
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 32px;
+  margin-bottom: 40px;
+}
+
+.portfolio-img {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 20px;
 }
